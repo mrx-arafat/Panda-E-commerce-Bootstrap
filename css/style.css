@@ -1,18 +1,95 @@
-.carousel-item{
-    padding: 20px 40px;
-    border-radius: 10px;
-
+.carousel-item {
+  padding: 20px 40px;
+  border-radius: 10px;
 }
-.orange-bg{
-    background-color:#fceae8 ;
+.orange-bg {
+  background-color: #fceae8;
 }
-.price{
-color: #ff136f;
+.price {
+  color: #ff136f;
 }
 .btn-buy-now {
-    background-image: linear-gradient(to bottom right, #d41361 0%, #ff4b92 100%);
-    color: white;
-    border-radius: 8px;
-    padding: 9px 25px;
-    border: none;
+  background-image: linear-gradient(to bottom right, #d41361 0%, #ff4b92 100%);
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+
+.btn-buy-now:hover {
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #fefffe 100%);
+  border: 2px solid #ff136f;
+}
+.cat1,
+.cat2,
+.cat3 {
+  color: white;
+  font-weight: 600;
+}
+.cat1 {
+  background-color: orange;
+  border-radius: 5px;
+}
+.cat2 {
+  background-color: green;
+  border-radius: 5px;
+}
+.cat3 {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.categories img {
+  width: 100px;
+}
+.card-title {
+  font-weight: 700;
+}
+.sale-price {
+  color: rgb(221, 20, 137);
+  font-weight: 700;
+  margin-left: 2px;
+  margin-bottom: 25px;
+}
+.card {
+  box-shadow: 3px 3px 10px lightgray;
+}
+.card img {
+  width: 400px;
+  height: 250px;
+}
+/* newsletter */
+.newsletter {
+  margin-top: 50px;
+  padding: 80px 0;
+  background: #fceceb;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.newsletter .content h2 {
+  color: #243c4f;
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #ff136f;
+  color: #fff;
+  font-weight: 600;
 }
